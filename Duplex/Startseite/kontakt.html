@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Duplex - Ihre Webagentur. Wir gestalten und entwickeln moderne Websites. Und mit gezieltem Online-Marketing sorgen wir die fr die passende Vermarktung.">
+<title>Ueber uns | Duplex - Die Webagentur aus Musterstadt</title>
+<link rel="stylesheet" href="css/styles.css">
+<link rel="icon" type="image/png" href="images/favicon.png">
+</head>
+<body>
+ 
+<!-- Header -->
+<header>
+    <div class="wrapper">
+        <div class="row">
+            <div class="column col_1_4">
+                <a href="index.html"><img src="images/Logo-Duplex.svg" alt="Logo Duplex Agentur" id="logo"></a>
+            </div>
+            <div class="column col_3_4">
+                <nav>
+                    <ul id="navigation">
+                        <li><a href="ueber.html">Über uns</a></li>
+                        <li><a href="projekte.html" class="active">Projekte</a></li>
+                        <li>
+                            <a href="leistungen.html">Leistungen</a>
+                            <ul>
+                                <li><a href="webdesign.html">Webdesign</a></li>
+                                <li><a href="webentwicklung.html">Webentwicklung</a></li>
+                                <li><a href="online-marketing.html">Online-Marketing</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="kontakt.html">Kontakt</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+</header>
+
+<section class="">
+    <div class="wrapper">
+        <div class="row">
+            <div class="column col_1_2">
+                <h2>Kontakt aufnehmen</h2>
+                <p>DUPLEX - Die Webagentur<br>Hauptstrasse 0815<br>54321 Musterstadt</p>
+                <p>Telefon: +49 001 98765432<br>E-Mail: <a href="mailto:info@duplex-agentur.de">info@duplex-agentur.de</a></p>
+                <hr>
+                <h3>Ihre Ansprechpartnerin</h3>
+                <p><img src="img/team-1.jpg" class="portrait" alt="Maria Musterfrau">
+                <p class="headline">Maria Musterfrau<br><span class="subline">Geschäftsführung</span></p></p>
+            </div>
+            <div class="column col_1_2">
+                <form action="formular.php" method="post">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Ihr Name" required>
+                    <label for="vorname">Vorname:</label>
+                    <input type="text" id="vorname" name="vorname" placeholder="Ihr Name">
+                    <label for="gender">Anrede:</label>
+                    <input type="radio" name="gender" value="male"> Frau<br>
+                    <input type="radio" name="gender" value="female"> Herr
+                    <label for="mail">E-Mail:</label>
+                    <input type="email" id="mail" name="mail" placeholder="Ihre E-Mail-Adresse" required>
+                    <label for="pass">Passwort:</label>
+                    <input type="password" id="pass" name="passwort" minlength="8" required>
+                    <label for="projekt">Projektauswahl:</label>
+                    <input type="checkbox" name="projekt" value="webdesign"> Webdesign<br>
+                    <input type="checkbox" name="projekt" value="appdesign"> App-Design<br>
+                    <input type="checkbox" name="projekt" value="webentwicklung"> Webentwicklung<br>
+                    <input type="checkbox" name="projekt" value="online-Marketing"> Online-Marketing<br>
+                    <input type="checkbox" name="projekt" value="anderes"> Anderes<br>
+                    <label for="anfrage">Ihr Budget:</label>
+                    <select name="anfrage" size="1" id="anfrage">
+                    <option>bis 1.000 Euro</option>
+                    <option>1.000 - 5.000 Euro</option>
+                    <option>5.000 - 10.000 Euro</option>
+                    <option>über 10.000 Euro</option>
+                    </select>
+                    <label for="message">Nachricht:</label>
+                    <textarea id="message" name="message" placeholder="Ihre Nachricht..."></textarea>
+                    <input type="submit" value="Nachricht absenden" class="button">
+                </form>
+                <p><a href="#">Datenschutzhinweis</a></p> 
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer --> 
+<footer>                
+    <div class="wrapper">
+        <div class="row">               
+            <div class="column col_1_3">
+                <h2>Kontakt</h2>
+                <p>DUPLEX - Die Webagentur<br>Hauptstrasse 0815<br>54321 Musterstadt</p><p>Telefon: +49 001 98765432<br>E-Mail: <a href="mailto:info@duplex-agentur.de">info@duplex-agentur.de</a></p>
+            </div>
+                    
+            <div class="column col_1_3">
+                <h2>Netzwerke</h2>
+                <p><a href="http://twitter.com/">twitter</a><br>
+                <a href="https://www.instagram.com/">Instagram</a><br>
+                <a href="https://de.linkedin.com/">Linkedin</a></p>
+            </div>
+                    
+            <div class="column col_1_3">        
+                <p><a href="impressum.html">Impressum</a> | <a href="datenschutz.html">Datenschutz</a></p>
+            </div>       
+        </div>
+        <div class="row">
+            <div class="column col_1">Made with ♥ by OfG</div>
+        </div>
+    </div>
+</footer>
+
+</body> 
+</html>
